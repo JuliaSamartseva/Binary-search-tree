@@ -1,0 +1,25 @@
+digraph BST {
+    node [fontname="Arial"];
+    sea -> file;
+    file -> area;
+    null0 [shape=point];
+    area -> null0;
+    area -> break;
+    null1 [shape=point];
+    break -> null1;
+    break -> cease;
+    null2 [shape=point];
+    cease -> null2;
+    null3 [shape=point];
+    cease -> null3;
+    file -> function;
+    null4 [shape=point];
+    function -> null4;
+    null5 [shape=point];
+    function -> null5;
+    sea -> stop;
+    null6 [shape=point];
+    stop -> null6;
+    null7 [shape=point];
+    stop -> null7;
+}
